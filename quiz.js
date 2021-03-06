@@ -85,12 +85,11 @@ const questions = [
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'Display the value of Job Variable',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'console.log (Job)', correct: true },
+      { text: 'console.log (name)', correct: false },
+ 
     ]
   },
   {
@@ -103,10 +102,10 @@ const questions = [
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Which of these lines of cod updates th status varible?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'var status ="workingout"', correct: false },
+      { text: 'status ="workingout"', correct: true }
     ]
   }
 ]
